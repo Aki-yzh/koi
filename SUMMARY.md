@@ -23,3 +23,8 @@
   * [最后的吻](hadaitainomonode/zui-hou-de-wen.md)
   * [真实的自我](hadaitainomonode/zhen-shi-de-zi-wo.md)
   * [满月夜](hadaitainomonode/man-yue-ye.md)
+  * [小礼品](hadaitainomonode/xiao-li-pin.md)
+  * [温柔的人](hadaitainomonode/wen-rou-de-ren.md)
+  * [喜欢的电影](hadaitainomonode/xi-huan-de-dian-ying.md)
+  * [想哭的原因](hadaitainomonode/xiang-ku-de-yuan-yin.md)
+  * [模糊的关系](hadaitainomonode/mo-hu-de-guan-xi.md)
