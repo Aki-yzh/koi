@@ -28,3 +28,4 @@
   * [喜欢的电影](hadaitainomonode/xi-huan-de-dian-ying.md)
   * [想哭的原因](hadaitainomonode/xiang-ku-de-yuan-yin.md)
   * [模糊的关系](hadaitainomonode/mo-hu-de-guan-xi.md)
+  * [永别了，喜欢的人](hadaitainomonode/yong-bie-le-xi-huan-de-ren.md)
