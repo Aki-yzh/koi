@@ -13,12 +13,17 @@ layout:
     visible: true
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 70vh;">
-  <div style="font-size: 4em; writing-mode: vertical-rl; text-align: center;">
-    作者名
-  </div>
-</div>
+# 作者
 
-<div style="position: fixed; right: 2em; bottom: 2em; font-size: 1em; color: #888;">
-  译者名
-</div>
+<h2 align="center">作者</h2>
+
+<h2 align="center"> 加藤 碧</h2>
+
+<h3 align="center">译者</h3>
+
+<h4 align="center">AKI</h4>
+
+<h4 align="center">阿飘</h4>
+
+<h4 align="center">ナナナ</h4>
+
