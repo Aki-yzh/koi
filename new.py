@@ -6,13 +6,21 @@ for filename in os.listdir(folder):
         path = os.path.join(folder, filename)
         with open(path, "r", encoding="utf-8") as f:
             lines = f.readlines()
-        # 找到最后一行分隔线的位置
+        # 查找分隔线位置
         if lines and lines[-1].strip() == "---":
-            # 找到倒数第一个非空行的位置
-            idx = len(lines) - 2
-            while idx >= 0 and lines[idx].strip() == "":
-                idx -= 1
-            # 保留内容+用<br>替换空行+分隔线
-            new_lines = lines[:idx+1] + ["<br>\n"] * (len(lines)-idx-2) + ["---\n"]
-            with open(path, "w", encoding="utf-8") as f:
-                f.writelines(new_lines)
+            content_lines = lines[:-1]
+            sep_line = lines[-1]
+        else:
+            content_lines = lines
+            sep_line = "---\n"
+        # 判断是否需要补行
+        total = len(content_lines)
+        if total < 24:
+            content_lines += ["<br>\n"] * (24 - total)
+        # 补一行空行
+        if len(content_lines) < 25:
+            content_lines.append("\n")
+        # 重新写入
+        new_lines = content_lines + [sep_line]
+        with open(path, "w", encoding="utf-8") as f:
+            f.writelines(new_lines)
