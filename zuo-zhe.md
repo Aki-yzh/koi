@@ -19,7 +19,7 @@ layout:
 
 <h2 align="center"> 加藤 碧</h2>
 
-<h3 align="center">译者</h3>
+<h2 align="center">译者</h2>
 
 <h4 align="center">AKI</h4>
 

@@ -2,7 +2,7 @@
 layout:
   width: default
   title:
-    visible: false
+    visible: true
   description:
     visible: false
   tableOfContents:
@@ -13,6 +13,6 @@ layout:
     visible: true
 ---
 
-# Page 1
+# 封面
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
