@@ -13,8 +13,8 @@ layout:
     visible: true
 ---
 
-# 恋はだいたい利己のもので
+# 恋はだいたい利己的なもので
 
-<h2 align="center">恋はだいたい利己のもので</h2>
+<h2 align="center">恋はだいたい利己的なもので</h2>
 
 ---
